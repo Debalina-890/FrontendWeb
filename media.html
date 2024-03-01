@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border: 2px solid black;
+            height: 50px;
+            width: 200px;
+            margin: 10px;
+        }
+        @media(min-width:1000px){
+           #box1{
+                background-color: red;
+            }
+        }
+        @media(min-width:800px) and (max-width:1000px){
+           #box2{
+                background-color: blue;
+            }
+        }
+    </style>
+</head>
+<body>
+   
+        <div class="box" id="box1">This is Laptop</div>
+        <div class="box" id="box2">This is Mobile</div>
+        <div class="box" id="box3">This is tablet</div>
+        <div class="box" id="box4">This is Computer</div>
+    
+</body>
+</html>
